@@ -1,0 +1,129 @@
+header{
+    background-color: #070c17;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    z-index: 99;
+
+}
+header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+header ul li{
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+li:hover{
+    filter: drop-shadow(0 0 2em rgba(189, 190, 209, 0.87));
+    transition-duration: 0.2s;
+}
+
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 20px;
+}
+main ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.companyInfo{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap:10px;
+    margin-top:20px;
+}
+.social-media{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.social-media button{
+    background-color: #101020;
+    padding: 12px 18px;
+    border: 0px;
+    color: white;
+    border-radius: 8px;
+}
+.info, .forma {
+    width: 45%;
+    min-width: 300px;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.forma input,textarea{
+    background-color: transparent;
+}
+.forma{
+    background-color: #070c17;
+    padding: 25px;
+}
+.forma form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.forma input,
+.forma textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+textarea{
+    height: 150px;
+}
+
+.forma .inputs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.forma button {
+    padding: 10px;
+    background-color: #101020;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.forma button:hover {
+    background-color: #101019;
+    transition-duration: 0.4s;
+}
+
+@media (max-width: 1050px) {
+    main{
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .info, .forma {
+        width: 100%;
+    }
+}
+
