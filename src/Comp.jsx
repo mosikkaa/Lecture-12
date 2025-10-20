@@ -8,6 +8,7 @@ export const Comp = () => {
             <div className='logo'>
                 <img src={logo} style={{ width: '50px', height: '50px'}} />
                 <span>LukaMeskhiWeb</span>
+                <p>lovebar</p>
             </div>
             <ul>
                 <li>Home</li>
