@@ -28,6 +28,11 @@ li:hover{
     filter: drop-shadow(0 0 2em rgba(189, 190, 209, 0.87));
     transition-duration: 0.2s;
 }
+.logo{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
 
 
 

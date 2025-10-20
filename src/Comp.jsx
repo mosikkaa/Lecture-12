@@ -5,7 +5,7 @@ import './Comp.css'
 export const Comp = () => {
     return (
         <header>
-            <div className='logo' style={{display:'flex',alignItems: 'center',gap:'10px'}}>
+            <div className='logo'>
                 <img src={logo} style={{ width: '50px', height: '50px'}} />
                 <span>LukaMeskhiWeb</span>
             </div>
